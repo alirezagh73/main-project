@@ -1,3 +1,9 @@
+
+@import "fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.word-space{
+    word-spacing: 12px;
+}
