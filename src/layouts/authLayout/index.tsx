@@ -10,13 +10,13 @@ const AuthLayout = ({children}: AuthLayoutProps) => {
         <main className='grid grid-cols-12 min-h-screen'>
 
             {/*Right Section => Form Section*/}
-            <section className='col-span-5 h-full container'>
+            <section className='col-span-12 md:col-span-6 xl:col-span-5 h-full container'>
 
-                <div className='flex flex-col items-center justify-center h-full px-4'>
+                <div className='flex flex-col items-center justify-center h-full p-6 lg:px-16'>
                     {/*form switch buttons*/}
                     <div className='bg-primary/10 flex w-full rounded-lg'>
-                        <button className='py-5 basis-1/2 text-primary'>ورود</button>
-                        <button className='py-5 basis-1/2  rounded-lg bg-primary text-white'>عضویت</button>
+                        <button className='py-4 basis-1/2 text-primary'>ورود</button>
+                        <button className='py-4 basis-1/2  rounded-lg bg-primary text-white'>عضویت</button>
                     </div>
 
                     {children}
@@ -25,7 +25,7 @@ const AuthLayout = ({children}: AuthLayoutProps) => {
 
             {/*left Section*/}
             <section
-                className='col-span-7 h-full bg-gradient-to-tl from-primary via-first-gradient-primary to-second-gradient-primary'>
+                className='col-span-6 xl:col-span-7 hidden md:block h-full bg-gradient-to-tl from-primary via-first-gradient-primary to-second-gradient-primary'>
                 <div className='container'>
                     <p className='flex justify-end p-2 pt-3'>
                         <button>
@@ -37,7 +37,7 @@ const AuthLayout = ({children}: AuthLayoutProps) => {
                         برنامه نویسی رو با
                         <br/>
 
-                        <span className='text-custom-yellow'> آموزشینو </span>
+                        <span className='text-custom-yellow'> آموزشیــــنو </span>
 
                         شروع کن
                     </h1>

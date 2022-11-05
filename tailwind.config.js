@@ -18,8 +18,11 @@ module.exports = {
                 'primary': '#4F55FB',
                 'first-gradient-primary': '#7346FF',
                 'second-gradient-primary': '#7545FF',
+                'third-gradient-primary': '#3339E7',
                 'shadow' : '#E6E7FE',
-                'custom-yellow' : '#FEE015'
+                'custom-yellow' : '#FEE015',
+                'custom-gray' : '#7E7E7E',
+                'custom-second-gray' : '#F0EDFF'
             }
         },
     },
